@@ -14,7 +14,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
 
-
+        System.out.println("thong tin nay duoc them vao tu kimquydev");
         try {
             // Đường dẫn đến file Excel
             FileInputStream file = new FileInputStream(new File("src/main/java/org/people.xlsx"));
